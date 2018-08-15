@@ -69,13 +69,13 @@ ul li a{
     text-transform: uppercase;
     font-size: .8em;
     display: block;
-    padding: 1.5em, 3em;
+    padding: 1.5em 3em;
     background-color: rgba(255,255,255,.35);
 }
 
 main{
     background: white;
-    padding: 1em, 1.4em;
+    padding: 2em 1.4em;
 }
 
 h1{
@@ -84,6 +84,7 @@ h1{
 p{
     font-size: 1.1em;
     line-height: 1.5em;
+    text-align: left;
 }
 
 .cta{
@@ -91,15 +92,15 @@ p{
     color: white;
     background: #0e7fff;
     text-decoration: none;
-    padding: 8px, 50px;
+    padding: 8px 50px;
     font-size: 1.2em;
     text-align: center;
     font-weight: bold;
     border-radius: 4px;
-    margin: 2em, 0;
+    margin: 2em 0;
 }
 
-@media only screen and(min-width: 768px){
+@media only screen and (min-width: 768px){
     body{
         display: grid;
         grid-template-columns: 20% auto;
@@ -111,11 +112,17 @@ p{
     aside{
         background: #dce1f6;
         grid-template-columns: auto;
-        grid-template-rows: 20%, auto;
+        grid-template-rows: 20% auto;
         padding: 0;
     }
     main{
         padding: 4em;
         background: white url('../images/bg.svg') no-repeat bottom right;
+        background-size: 70%;
+    }
+
+    #avatar{
+        
     }
 }
+
